@@ -1,5 +1,5 @@
 
-# **LLM Classification**
+# **LLM Classifier**
 
 This project implements a LLM-based classification framework that supports two modes of operation:
 1. **Custom Prediction:** Classify user-provided text using custom labels and descriptions.
@@ -9,17 +9,17 @@ This project implements a LLM-based classification framework that supports two m
 
 ### **1. Clone the Repository**
 ```bash
-git clone <repository_url>
-cd <repository_directory>
+git clone https://github.com/wjzhang392/LLM_Classifier
+cd LLM_Classifier
 ```
 
 ### **2. Set Up a Virtual Environment**
 ```bash
 # Create a virtual environment
-conda create -n llmclass python=3.8
+conda create -n llm_clf python=3.8
 
 # Activate the virtual environment
-conda activate llmclass
+conda activate llm_clf
 ```
 
 ### **3. Install Requirements**
@@ -50,8 +50,8 @@ pip install -r requirements.txt
 
 4. **Key Files:**
    - `data_loader.py`: Handles dataset loading and preprocessing.
-   - `prompt_engineer.py`: Constructs prompts for the LLM.
-   - `model_chain.py`: Initializes the language model and constructs classification chains.
+   - `prompt.py`: Constructs prompts for the LLM.
+   - `model.py`: Initializes the language model and constructs classification chains.
    - `evaluation.py`: Computes evaluation metrics.
    - `main.py`: Orchestrates the overall workflow based on `config.yaml`.
 
@@ -187,22 +187,6 @@ f1: 0.8700
 
 ---
 
-## **Project Dependencies**
-
-### **Python Packages**
-- `langchain`: Framework for constructing LLM-powered workflows.
-- `datasets`: Handles dataset loading and preprocessing.
-- `scikit-learn`: Computes evaluation metrics.
-- `pandas`: Manages data preprocessing and tabular operations.
-- `regex`: Processes and matches model predictions.
-
-### **Install Dependencies**
-```bash
-pip install -r requirements.txt
-```
-
----
-
 ## **Project Extension**
 This framework is designed for extensibility:
 - Add new datasets by extending `data_loader.py` and updating `config.yaml`.
@@ -214,7 +198,3 @@ Feel free to contribute enhancements or report issues.
 
 ## **License**
 This project is licensed under the MIT License.
-
----
-
-Let me know if you'd like any additional sections, such as example datasets or contributing guidelines!

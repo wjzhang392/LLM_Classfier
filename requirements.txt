@@ -1,5 +1,7 @@
 langchain
 openai
+pandas
+numpy
 scikit-learn
 datasets
 matplotlib
