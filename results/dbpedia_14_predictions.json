@@ -1,0 +1,62 @@
+[
+    {
+        "key": 0,
+        "input": " TY KU /ta\u026aku\u02d0/ is an American alcoholic beverage company that specializes in sake and other spirits. The privately-held company was founded in 2004 and is headquartered in New York City New York. While based in New York TY KU's beverages are made in Japan through a joint venture with two sake breweries. Since 2011 TY KU's growth has extended its products into all 50 states.",
+        "prediction": "Company",
+        "label": "Company"
+    },
+    {
+        "key": 1,
+        "input": " OddLot Entertainment founded in 2001 by longtime producers Gigi Pritzker and Deborah Del Prete (The Wedding Planner) is a film production and financing company based in Culver City California.OddLot produced the film version of Orson Scott Card's sci-fi novel Ender's Game. A film version of this novel had been in the works in one form or another for more than a decade by the time of its release.",
+        "prediction": "Label: Company",
+        "label": "Company"
+    },
+    {
+        "key": 2,
+        "input": " Henkel AG & Company KGaA operates worldwide with leading brands and technologies in three business areas: Laundry & Home Care Beauty Care and Adhesive Technologies. Henkel is the name behind some of America\u2019s favorite brands.",
+        "prediction": "Company",
+        "label": "Company"
+    },
+    {
+        "key": 3,
+        "input": " The GOAT Store (Games Of All Type Store) LLC is one of the largest retro gaming online stores and an Independent Video Game Publishing Label. Additionally they are one of the primary sponsors for Midwest Gaming Classic.",
+        "prediction": "Company",
+        "label": "Company"
+    },
+    {
+        "key": 4,
+        "input": " RagWing Aircraft Designs (also called the RagWing Aeroplane Company and RagWing Aviation) was an American aircraft design and manufacturing company based in Belton South Carolina.",
+        "prediction": "Label: Company",
+        "label": "Company"
+    },
+    {
+        "key": 5,
+        "input": " Po\u0161te Srpske is one of three companies responsible for postal service in Bosnia and Herzegovina. The other two are BH Po\u0161ta and Hrvatska Po\u0161ta Mostar.",
+        "prediction": "Label: Company",
+        "label": "Company"
+    },
+    {
+        "key": 6,
+        "input": " Open Kernel Labs (OK Labs) is a privately owned company that develops microkernel-based hypervisors and operating systems for embedded systems. The company was founded in 2006 by Steve Subar and Gernot Heiser as a spinout from NICTA. It is headquartered in Chicago while research and development is located in Sydney Australia. The company was acquired by General Dynamics in September 2012.",
+        "prediction": "Company",
+        "label": "Company"
+    },
+    {
+        "key": 7,
+        "input": " Skye Bank Plc. commonly known as Skye Bank is a commercial bank based in Nigeria. It is one of the twenty-six (26) commercial banks licensed by the Central Bank of Nigeria the country's banking regulator.",
+        "prediction": "Company",
+        "label": "Company"
+    },
+    {
+        "key": 8,
+        "input": " CNet Technology is a Taiwanese company that manufactures network equipment such as network cards switches and modems.",
+        "prediction": "Company",
+        "label": "Company"
+    },
+    {
+        "key": 9,
+        "input": " 188BET is an online sportsbook provider. 188BET is owned by Cube Limited which is licensed and regulated by the Isle of Man.",
+        "prediction": "Label: Company",
+        "label": "Company"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "key": 0,
+        "input": "@user @user what do these '1/2 naked pics' have to do with anything? They're not even like that.",
+        "prediction": "Neutral",
+        "label": "Neutral"
+    },
+    {
+        "key": 1,
+        "input": "OH: \u201cI had a blue penis while I was this\u201d [playing with Google Earth VR]",
+        "prediction": "Label: Neutral",
+        "label": "Neutral"
+    },
+    {
+        "key": 2,
+        "input": "@user @user That's coming, but I think the victims are going to be Medicaid recipients.",
+        "prediction": "Neutral",
+        "label": "Neutral"
+    },
+    {
+        "key": 3,
+        "input": "I think I may be finally in with the in crowd #mannequinchallenge  #grads2014 @user",
+        "prediction": "Label: Positive",
+        "label": "Positive"
+    },
+    {
+        "key": 4,
+        "input": "@user Wow,first Hugo Chavez and now Fidel Castro. Danny Glover, Michael Moore, Oliver Stone, and Sean Penn are running out of heroes.",
+        "prediction": "Label: Negative",
+        "label": "Negative"
+    },
+    {
+        "key": 5,
+        "input": "Savchenko now Saakashvili took drug test live on Ukraine TV. To prove they are not drug-fueled loonies?",
+        "prediction": "Label: Neutral",
+        "label": "Neutral"
+    },
+    {
+        "key": 6,
+        "input": "How many more days until opening day? \ud83d\ude29",
+        "prediction": "Neutral",
+        "label": "Neutral"
+    },
+    {
+        "key": 7,
+        "input": "Twitter's #ThankYouObama Shows Heartfelt Gratitude To POTUS",
+        "prediction": "Label: Positive",
+        "label": "Positive"
+    },
+    {
+        "key": 8,
+        "input": "All CSG and Fracking all around Australia is to cease and Mining Entities held Accountable! - Sign the Petition!",
+        "prediction": "Label: Positive",
+        "label": "Neutral"
+    },
+    {
+        "key": 9,
+        "input": "@user @user @user @user @user @user take away illegals and dead people and Trump wins popular vote too.",
+        "prediction": "Label: Neutral",
+        "label": "Negative"
+    }
+]

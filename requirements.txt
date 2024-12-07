@@ -1,0 +1,6 @@
+langchain
+openai
+scikit-learn
+datasets
+matplotlib
+nltk

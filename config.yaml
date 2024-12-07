@@ -1,0 +1,71 @@
+# Configuration file for classification project
+
+# Operating mode: "offline_evaluation" or "custom_prediction"
+mode: "custom_prediction"  # Choose between offline_evaluation or custom_prediction
+
+# Dataset configuration for offline evaluation and validation
+# Dataset configuration for offline evaluation and validation
+datasets:
+  imdb:
+    name: "imdb"
+    label_column: "sentiment"
+    text_column: "review"
+    task_type: "Binary"
+    test_limit: 10            # Number of test examples to predict
+    labels:
+      Positive: "Positive sentiment."
+      Negative: "Negative sentiment."
+  dbpedia:
+    name: "dbpedia_14"
+    label_column: "label"
+    text_column: "content"
+    task_type: "Multiclass"
+    test_limit: 10
+    labels:
+      Company: "A company or business organization."
+      Educational Institution: "An institution focused on education."
+      Artist: "An individual who creates art."
+      Athlete: "A person involved in sports."
+      Office Holder: "An individual holding a public office."
+      Mean of Transportation: "Modes of transport like cars or planes."
+      Building: "Structures such as houses or skyscrapers."
+      Natural Place: "Places found in nature like mountains."
+      Village: "Small settlements or communities."
+      Animal: "Animals found in the wild or domestic settings."
+      Plant: "Flora or vegetation."
+      Album: "A collection of music tracks."
+      Film: "Movies or cinematographic works."
+      Written Work: "Books, articles, or written compositions."
+  tweet_eval:
+    name: "tweet_eval"
+    subset: "sentiment"        # Subset for the tweet_eval dataset
+    label_column: "label"
+    text_column: "text"
+    task_type: "Multiclass"
+    test_limit: 10
+    labels:
+      Negative: "A negative sentiment."
+      Neutral: "A neutral sentiment."
+      Positive: "A positive sentiment."
+
+# Number of few-shot examples
+n_shot: 5
+
+# User-defined labels for tasks without labeled datasets
+custom_labels:
+  Binary:
+    Positive: "Positive sentiment."
+    Negative: "Negative sentiment."
+  Multiclass:
+    Critical: "Critical issue that needs immediate attention."
+    High: "High priority issue."
+    Medium: "Medium priority issue."
+    Low: "Low priority issue."
+
+# Model configuration
+model:
+  name: "gpt-3.5-turbo"
+  temperature: 0.0
+
+# Results directory
+results_dir: "results"
